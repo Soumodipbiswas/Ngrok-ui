@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="src/style.css" />
     <title>yntp-ngrok</title>
   </head>
-  <body class="bg-neutral-950 text-white">
+  <body class="bg-neutral-900 text-white">
     <div class="overflow-clip">
       <div
         aria-hidden="true"
@@ -348,7 +348,7 @@
           >
             <div class="relative flex w-full max-w-270 flex-col items-center">
               <div
-                class="gradient-blur pointer-events-none absolute top-1/2 left-1/2 aspect-video w-11/12 max-w-167.5 -translate-x-1/2 -translate-y-1/2 rounded-full bg-[linear-gradient(98deg,var(--color-amber-500)_1.35%,var(--color-lime-400)_18.48%,var(--color-emerald-400)_38.35%,var(--color-sky-500)_58.63%,var(--color-purple-500)_79.7%,var(--color-rose-500)_100%)] opacity-25 -z-10 animate-in fade-in duration-80 ease-out"
+                class="gradient-blur pointer-events-none absolute top-1/2 left-1/2 aspect-video w-11/12 max-w-167.5 -translate-x-1/2 -translate-y-1/2 rounded-full bg-[linear-gradient(98deg,var(--color-amber-500)_1.35%,var(--color-lime-400)_18.48%,var(--color-emerald-400)_38.35%,var(--color-sky-500)_58.63%,var(--color-purple-500)_79.7%,var(--color-rose-500)_100%)] opacity-0 -z-10 animate-in fade-in duration-80 ease-out"
                 style="
                   --gradient-blur-filter: url(#gradient-blur-_r_0_);
                   --gradient-blur-filter-sm: url(#gradient-blur-sm-_r_0_);
@@ -454,9 +454,9 @@
                   class="group flex items-center gap-2 rounded-full bg-emerald-500/10 py-1 pr-4 pl-1 transition-colors hover:bg-emerald-500/15"
                   id="hero-ai-gateway-pill"
                   ><span
-                    class="rounded-full bg-emerald-500/20 px-3 py-1 font-mono text-xs font-medium tracking-wider text-emerald-800 uppercase"
+                    class="rounded-full bg-emerald-500/20 px-3 py-1 font-mono text-xs font-medium tracking-wider text-emerald-300 uppercase"
                     >New</span
-                  ><span class="text-sm text-emerald-700"
+                  ><span class="text-sm text-emerald-500"
                     >Introducing AI Gateway</span
                   ><svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -465,7 +465,7 @@
                     fill="currentColor"
                     viewBox="0 0 256 256"
                     data-slot="icon"
-                    class="shrink-0 size-5 text-emerald-700 transition-transform group-hover:translate-x-1"
+                    class="shrink-0 size-5 text-emerald-500 transition-transform group-hover:translate-x-1"
                   >
                     <path
                       d="M221.66,133.66l-72,72a8,8,0,0,1-11.32-11.32L196.69,136H40a8,8,0,0,1,0-16H196.69L138.34,61.66a8,8,0,0,1,11.32-11.32l72,72A8,8,0,0,1,221.66,133.66Z"
@@ -485,7 +485,7 @@
                   anywhere.
                 </p>
                 <div
-                  class="2xs:flex-row flex w-full flex-col items-center justify-center gap-2 flex-wrap gap-y-4"
+                  class="sm:flex-row flex w-full flex-col items-center justify-center gap-2 flex-wrap gap-y-4"
                 >
                   <svg class="sr-only" aria-hidden="true">
                     <defs>
@@ -503,7 +503,7 @@
                       </filter>
                     </defs></svg
                   ><a
-                    class="flex items-center justify-center relative rounded-full bg-black/90 hover:bg-black px-5 h-12 font-mono text-[0.8125rem] font-medium uppercase tracking-wider text-white/90 glow hover:after:scale-105 after:transition-transform active:scale-[97%] select-none [-webkit-user-select:none] [-webkit-touch-callout:none] [-webkit-tap-highlight-color:transparent] text-center 2xs:w-auto w-full shrink-0"
+                    class="flex items-center justify-center relative rounded-full bg-white/90 px-5 h-12 font-mono text-[0.8125rem] font-medium uppercase tracking-wider text-black/90 glow hover:after:scale-105 after:transition-transform active:scale-[97%] select-none [-webkit-user-select:none] [-webkit-touch-callout:none] [-webkit-tap-highlight-color:transparent] text-center sm:w-auto w-full shrink-0"
                     style="--glow-filter: url(#_R_34655_)"
                     href="https://dashboard.ngrok.com/signup"
                     id="hero-signup-cta"
@@ -512,7 +512,7 @@
                     href="https://ngrok.com/docs/start"
                     target="_blank"
                     rel="noopener"
-                    class="inline-flex items-center justify-center gap-1.5 whitespace-nowrap focus:outline-hidden focus-visible:ring-4 disabled:cursor-default disabled:opacity-50 not-disabled:active:scale-97 ease-out transition-transform duration-150 focus-visible:ring-focus-accent border border-transparent bg-static-white/10 not-disabled:hover:bg-static-white/15 not-disabled:active:bg-static-white/15 2xs:w-auto h-12 w-full rounded-full px-5 text-strong font-mono text-[0.8125rem] leading-[1.538em] font-medium tracking-[0.05em] uppercase"
+                    class="inline-flex items-center justify-center gap-1.5 whitespace-nowrap focus:outline-hidden focus-visible:ring-4 disabled:cursor-default disabled:opacity-50 not-disabled:active:scale-97 ease-out transition-transform duration-150 focus-visible:ring-focus-accent border border-transparent bg-static-white/10 not-disabled:hover:bg-static-white/15 not-disabled:active:bg-static-white/15 sm:w-auto h-12 w-full rounded-full px-5 text-strong font-mono text-[0.8125rem] leading-[1.538em] font-medium tracking-[0.05em] uppercase"
                     aria-disabled="false"
                     data-slot="button"
                     data-appearance="filled"
@@ -1578,7 +1578,7 @@
                   class="bg-card group border-card relative flex w-full flex-col items-center justify-between gap-6 overflow-hidden rounded-xl border p-6 transition-colors hover:border-amber-600/30 min-[70.625rem]:col-span-2 min-[70.625rem]:flex-row min-[70.625rem]:items-start"
                   id="spotlight-ai-gateway"
                   ><div
-                    class="h-full w-full absolute inset-0 mask-b-from-30% mask-b-to-60% opacity-25 mix-blend-screen min-[70.625rem]:mask-r-from-30% min-[70.625rem]:mask-r-to-60% min-[70.625rem]:mask-b-from-100% min-[70.625rem]:mask-b-to-100%"
+                    class="h-full w-full absolute inset-0 mask-b-from-30% mask-b-to-60% opacity-0 mix-blend-screen min-[70.625rem]:mask-r-from-30% min-[70.625rem]:mask-r-to-60% min-[70.625rem]:mask-b-from-100% min-[70.625rem]:mask-b-to-100%"
                   ></div>
                   <div
                     class="pointer-events-none relative z-10 flex flex-col items-center gap-2 min-[70.625rem]:h-full min-[70.625rem]:items-start"
@@ -1758,7 +1758,7 @@
                     </p>
                   </div>
                   <div
-                    class="2xs:flex-row 2xs:gap-8 flex flex-col items-center gap-4"
+                    class="sm:flex-row sm:gap-8 flex flex-col items-center gap-4"
                   >
                     <a
                       href="https://ngrok.com/docs/guides/site-to-site-connectivity/non-k8s-environment"
@@ -2172,7 +2172,7 @@
               class="relative flex w-full max-w-270 flex-col items-center gap-4"
             >
               <div
-                class="gradient-blur pointer-events-none absolute top-1/2 left-1/2 aspect-video w-11/12 max-w-167.5 -translate-x-1/2 -translate-y-1/2 rounded-full opacity-25 -z-10 animate-in fade-in duration-80 ease-out scale-75 bg-sky-400 bg-none"
+                class="gradient-blur pointer-events-none absolute top-1/2 left-1/2 aspect-video w-11/12 max-w-167.5 -translate-x-1/2 -translate-y-1/2 rounded-full opacity-0 -z-10 animate-in fade-in duration-80 ease-out scale-75 bg-sky-400 bg-none"
                 style="
                   --gradient-blur-filter: url(#gradient-blur-_r_1_);
                   --gradient-blur-filter-sm: url(#gradient-blur-sm-_r_1_);
@@ -3038,7 +3038,7 @@
             <div class="flex w-full max-w-270 flex-col items-center gap-20">
               <div class="relative flex flex-col items-center gap-4">
                 <div
-                  class="gradient-blur pointer-events-none absolute top-1/2 left-1/2 aspect-video w-11/12 max-w-167.5 -translate-x-1/2 -translate-y-1/2 rounded-full opacity-25 -z-10 animate-in fade-in duration-80 ease-out scale-75 bg-purple-400 bg-none"
+                  class="gradient-blur pointer-events-none absolute top-1/2 left-1/2 aspect-video w-11/12 max-w-167.5 -translate-x-1/2 -translate-y-1/2 rounded-full opacity-0 -z-10 animate-in fade-in duration-80 ease-out scale-75 bg-purple-400 bg-none"
                   style="
                     --gradient-blur-filter: url(#gradient-blur-_r_2_);
                     --gradient-blur-filter-sm: url(#gradient-blur-sm-_r_2_);
@@ -3408,7 +3408,7 @@
             >
               <div class="relative flex flex-col items-center gap-4">
                 <div
-                  class="gradient-blur pointer-events-none absolute top-1/2 left-1/2 aspect-video w-11/12 max-w-167.5 -translate-x-1/2 -translate-y-1/2 rounded-full opacity-25 -z-10 animate-in fade-in duration-80 ease-out scale-75 bg-emerald-400 bg-none"
+                  class="gradient-blur pointer-events-none absolute top-1/2 left-1/2 aspect-video w-11/12 max-w-167.5 -translate-x-1/2 -translate-y-1/2 rounded-full opacity-0 -z-10 animate-in fade-in duration-80 ease-out scale-75 bg-emerald-400 bg-none"
                   style="
                     --gradient-blur-filter: url(#gradient-blur-_r_3_);
                     --gradient-blur-filter-sm: url(#gradient-blur-sm-_r_3_);
@@ -5912,7 +5912,7 @@
             class="relative flex flex-col items-center justify-center px-4 py-12 sm:py-20"
           >
             <div
-              class="gradient-blur pointer-events-none absolute top-1/2 left-1/2 aspect-video w-11/12 max-w-167.5 -translate-x-1/2 -translate-y-1/2 rounded-full bg-[linear-gradient(98deg,var(--color-amber-500)_1.35%,var(--color-lime-400)_18.48%,var(--color-emerald-400)_38.35%,var(--color-sky-500)_58.63%,var(--color-purple-500)_79.7%,var(--color-rose-500)_100%)] opacity-25 -z-10 animate-in fade-in duration-80 ease-out"
+              class="gradient-blur pointer-events-none absolute top-1/2 left-1/2 aspect-video w-11/12 max-w-167.5 -translate-x-1/2 -translate-y-1/2 rounded-full bg-[linear-gradient(98deg,var(--color-amber-500)_1.35%,var(--color-lime-400)_18.48%,var(--color-emerald-400)_38.35%,var(--color-sky-500)_58.63%,var(--color-purple-500)_79.7%,var(--color-rose-500)_100%)] opacity-0 -z-10 animate-in fade-in duration-80 ease-out"
               style="
                 --gradient-blur-filter: url(#gradient-blur-_r_4_);
                 --gradient-blur-filter-sm: url(#gradient-blur-sm-_r_4_);
@@ -6051,7 +6051,7 @@
                   </p>
                 </div>
                 <div
-                  class="2xs:flex-row flex w-full flex-col items-center justify-center gap-2"
+                  class="sm:flex-row flex w-full flex-col items-center justify-center gap-2"
                 >
                   <svg class="sr-only" aria-hidden="true">
                     <defs>
@@ -6069,14 +6069,14 @@
                       </filter>
                     </defs></svg
                   ><a
-                    class="flex items-center justify-center relative rounded-full bg-black/90 hover:bg-black px-5 h-12 font-mono text-[0.8125rem] font-medium uppercase tracking-wider text-white/90 glow hover:after:scale-105 after:transition-transform active:scale-[97%] select-none [-webkit-user-select:none] [-webkit-touch-callout:none] [-webkit-tap-highlight-color:transparent] text-center 2xs:w-auto w-full shrink-0"
+                    class="flex items-center justify-center relative rounded-full bg-black/90 hover:bg-black px-5 h-12 font-mono text-[0.8125rem] font-medium uppercase tracking-wider text-white/90 glow hover:after:scale-105 after:transition-transform active:scale-[97%] select-none [-webkit-user-select:none] [-webkit-touch-callout:none] [-webkit-tap-highlight-color:transparent] text-center sm:w-auto w-full shrink-0"
                     style="--glow-filter: url(#_R_6le55_)"
                     href="https://dashboard.ngrok.com/signup"
                     id="footer-signup-cta"
                     >Start Building</a
                   ><a
                     id="footer-see-pricing"
-                    class="inline-flex items-center justify-center gap-1.5 whitespace-nowrap focus:outline-hidden focus-visible:ring-4 disabled:cursor-default disabled:opacity-50 not-disabled:active:scale-97 ease-out transition-transform duration-150 text-white focus-visible:ring-focus-accent border border-transparent text-sm font-medium font-sans bg-static-white/10 not-disabled:hover:bg-static-white/15 not-disabled:active:bg-static-white/15 2xs:w-auto h-12 w-full rounded-full px-5"
+                    class="inline-flex items-center justify-center gap-1.5 whitespace-nowrap focus:outline-hidden focus-visible:ring-4 disabled:cursor-default disabled:opacity-50 not-disabled:active:scale-97 ease-out transition-transform duration-150 text-white focus-visible:ring-focus-accent border border-transparent text-sm font-medium font-sans bg-static-white/10 not-disabled:hover:bg-static-white/15 not-disabled:active:bg-static-white/15 sm:w-auto h-12 w-full rounded-full px-5"
                     aria-disabled="false"
                     data-slot="button"
                     data-appearance="filled"
